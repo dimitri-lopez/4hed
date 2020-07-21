@@ -1,0 +1,12 @@
+---
+deployment:
+	tasks:
+		- export DEPLOYPATH=/home/uguiw0obdr4e/public_html/
+		- /bin/cp about.html $DEPLOYPATH
+		- /bin/cp drawSnow.js $DEPLOYPATH
+		- /bin/cp homeSketch.js $DEPLOYPATH
+		- /bin/cp index.html $DEPLOYPATH
+		- /bin/cp round2.html $DEPLOYPATH
+		- /bin/cp snowflake.js $DEPLOYPATH
+		- /bin/cp style.css $DEPLOYPATH
+		- /bin/cp -R * $DEPLOYPATH
