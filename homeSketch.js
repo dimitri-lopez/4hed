@@ -34,19 +34,15 @@ function mouseDragged(){
 }
 
 function draw() {
-    background(0);
-    
-    
-//    let width = windowWidth * 0.3;
-//    let height = windowHeight * 0.2;
-    
-//    ellipse(windowWidth / 2, windowHeight / 2, width, height)
-    
-    
-    
+    // background(86, 80, 88, 250);
+    // background(224,211,226,200)
+    background(219,204,220,255)
+
+
     strokeWeight(1);
     text("[   4   H   E   D   ]", windowWidth/2, windowHeight/2)
-    fill(255, 255, 255, 255);
+    fill(0, 0, 0, 255);
+    // fill(255, 86, 80, 88);
 
     
     for(let i = 0; i < array.length; i++){

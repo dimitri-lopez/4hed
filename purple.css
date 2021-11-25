@@ -6,9 +6,10 @@ html, body {
 h1 {
     width: auto;
     padding: 1%;
-    color:white;
+    color: black;
     text-align: center;
     overflow: hidden;
+    letter-spacing: 3.5px;
 }
 .center {
     display: block;
@@ -19,7 +20,7 @@ h1 {
 
 .subpoint {
     width: auto;
-    color: white;
+    color: black;
     text-align: center;
     overflow: hidden;
     font-size: 200%
@@ -30,18 +31,20 @@ a:link {
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(219,204,220);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.5px;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(219,204,220);
     position: fixed;
     top: 0;
     width: 100%;
@@ -50,23 +53,26 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 0.7%;
+    padding-left: 20px;
     padding-right: 20px;
-    font-size: 125%;
+    font-size: 165%;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background: gray;
-    color: white;
+    stroke(120, 102, 124);
+    background: rgb(120, 102, 124);
+    color: black;
 }
 
 p {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.0px;
     width: auto;
-    color: white;
+    color: black;
     font-size: 125%;
     text-align: center;
-    padding: 1%;
 }

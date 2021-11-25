@@ -10,7 +10,7 @@ class SnowFlake{
     }
 
     updatePosition(){
-        this.x += Math.sin(map(this.y, 0, height, 0, 1.3 * Math.PI));
+        this.x += Math.sin(map(this.y + random(this.y), 0, height, 0, 1.3 * Math.PI));
         this.y += this.yForce;
 
         if(this.x > width)
@@ -24,7 +24,7 @@ class SnowFlake{
     }
 
     draw(){
-        stroke(255);
+        stroke(120, 102, 124);
         strokeWeight(this.r);
         point(this.x, this.y);
     }
