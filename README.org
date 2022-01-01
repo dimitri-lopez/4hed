@@ -1,0 +1,15 @@
+#+TITLE: 4HED
+
+A little website for a bunch of friends :)
+
+* Pushing Changes to the Website
+1. Push changes into this gitub repo first.
+2. Log into CPANEL: https://a2plcpnl0069.prod.iad2.secureserver.net:2083/logout/?locale=en
+3. Navigate to:
+
+   [[./images/git_version_control_logo.png]]
+4. Click "Manage" for "porque.life"
+5. Navigate to "Pull or Deploy"
+6. Click "Update from Remote"
+7. Once the HEAD commit message changes to the most recent commit, click "Deploy
+   HEAD Commint"
