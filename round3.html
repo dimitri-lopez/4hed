@@ -23,13 +23,215 @@ https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyV
 
     <h1 style="font-size: 500%;padding-top: 5%">Third Wave</h1>
     <p class="paragrah">The third wave of hoodies is happening now as of 11/25/2021<br/><br/>
-        Three of these things now? It's been two years since we first did this. Time flies by too fsat.
+        Three of these things now? It's been two years since we first did this. Time flies by too fast.
 
-        <h1>Closes 12/3/2021</h1>
+<!--         <h1>Closes 12/3/2021</h1> -->
+    
+<div id='product-component-1641000122816'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'charlessstrauss.myshopify.com',
+      storefrontAccessToken: '6e6ef3d30f2a0eb41dd77e340949a743',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '7496506605783',
+        node: document.getElementById('product-component-1641000122816'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-size": "26px"
+      },
+      "button": {
+        "font-weight": "bold",
+        "color": "#2e2e2e",
+        ":hover": {
+          "color": "#2e2e2e",
+          "background-color": "#d6ced9"
+        },
+        "background-color": "#eee5f1",
+        ":focus": {
+          "background-color": "#d6ced9"
+        },
+        "border-radius": "25px",
+        "padding-left": "129px",
+        "padding-right": "129px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-size": "15.299999999999999px"
+      },
+      "unitPrice": {
+        "font-size": "15.299999999999999px"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-weight": "bold",
+        "color": "#2e2e2e",
+        ":hover": {
+          "color": "#2e2e2e",
+          "background-color": "#d6ced9"
+        },
+        "background-color": "#eee5f1",
+        ":focus": {
+          "background-color": "#d6ced9"
+        },
+        "border-radius": "25px",
+        "padding-left": "129px",
+        "padding-right": "129px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-weight": "bold",
+        "color": "#2e2e2e",
+        ":hover": {
+          "color": "#2e2e2e",
+          "background-color": "#d6ced9"
+        },
+        "background-color": "#eee5f1",
+        ":focus": {
+          "background-color": "#d6ced9"
+        },
+        "border-radius": "25px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-weight": "bold",
+        "background-color": "#eee5f1",
+        ":hover": {
+          "background-color": "#d6ced9"
+        },
+        ":focus": {
+          "background-color": "#d6ced9"
+        }
+      },
+      "count": {
+        "color": "#2e2e2e",
+        ":hover": {
+          "color": "#2e2e2e"
+        }
+      },
+      "iconPath": {
+        "fill": "#2e2e2e"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 
-        <h1>Product Information</h1>
+<!--         <h1>Product Information</h1> -->
 
-    <p><img alt="Design for the Third Wave" class="center" src="images/round3Design.png" /></p>
+<!--     <p><img alt="Design for the Third Wave" class="center" src="images/round3Design.png" /></p>
 
     <p class="paragrah">Identical layout as the first two with different colors. A light purple hoodie with black text in the center.</p>
 
@@ -38,7 +240,7 @@ https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyV
     <h1>Current Price: $22.00</h1>
 
     <h1 href="https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyVhziX8_3AQg/viewform" target="_blank" title="4HED Round 3 Sign Up">Sign Up:</h1>
-    <p> <a href="https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyVhziX8_3AQg/viewform"> https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyVhziX8_3AQg/viewform </a> </p>
+    <p> <a href="https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyVhziX8_3AQg/viewform"> https://docs.google.com/forms/d/e/1FAIpQLScuP8S0RvryH7sYRDwgvNyXxUAnOaaH7aGz8UyVhziX8_3AQg/viewform </a> </p> -->
 
     <h1>Contact Info</h1>
     <p>Get in touch with Charlie Hill.<br />
