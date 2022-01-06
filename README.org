@@ -13,3 +13,11 @@ A little website for a bunch of friends :)
 6. Click "Update from Remote"
 7. Once the HEAD commit message changes to the most recent commit, click "Deploy
    HEAD Commint"
+* Design Details
+- Text: "* 4 H E D *"
+- Font: Classic 07
+- Size: 12" wide, 2" tall
+- Location: 4.5" below the collar
+- [[https://www.brokenarrowwear.com/artapprovals/ArtApproval.aspx?customer_number=350093&art_number=222695][Black Hoodie Artwork]]
+- [[https://www.brokenarrowwear.com/artapprovals/ArtApproval.aspx?customer_number=350093&art_number=234914][White Hoodie Artwork]]
+- Purple? Contact Charlie Hill.
